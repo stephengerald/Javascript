@@ -1,7 +1,8 @@
 // Exercise 3: Voting Eligibility Checker
-let age;
+let age = prompt("Enter your age:");
+age = parseInt(age);
 if (age >= 18) {
-    console.log("Eligible to vote");
+    alert("Eligible to vote");
 } else {
-    console.log("Not eligible to vote");
+    alert("Not eligible to vote");
 }
